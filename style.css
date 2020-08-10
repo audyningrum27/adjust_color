@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.warna {
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+h6,
+p {
+    text-align: center;
+    margin: 0;
+    padding: 1vh 2vh;
+    font-size: 1.25vw;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Jua',
+    sans-serif;
+}
+
+p {
+    font-size: 2.25vw;
+    text-transform: uppercase;
+}
+
+input[type="text"]#colorCode {
+    border-width: 2vw 2vw 0 2vw;
+    border-style: solid;
+    border-color: #7F7F7F;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px 10px 0 0;
+    width: 36vw;
+    padding: 1vw 0;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Jua',
+    sans-serif;
+/*    text-transform: uppercase; */
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"]#colorCode::-webkit-input-placeholder {
+    text-align: center;
+}
+
+button {
+    width: 40vw;
+    padding: 2vw;
+    background-color: transparent;
+    border: 2vw solid #7F7F7F;
+    border-radius: 0 0 10px 10px;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Jua',
+    sans-serif;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5vw;
+}
+
+.nama {
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    text-transform: none;
+}
