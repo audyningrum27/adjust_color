@@ -22,12 +22,12 @@ const getNewColor = () => {
     for(let i = 0; i < 6; i++) {
         color += symbols[Math.floor(Math.random() * 16)];
     }
-    button.style.backgroundColor = color;
+//    button.style.backgroundColor = color;
     liveCode.innerHTML = color;
 }
 
 button.addEventListener('click', () => {
     AdjustColor();
     getNewColor();
-    warna();
+//    warna();
 })
